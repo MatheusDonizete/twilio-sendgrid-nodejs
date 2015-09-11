@@ -1,0 +1,17 @@
+{
+  "name": "services_integration",
+  "version": "1.0.0",
+  "description": "API as a Service responsible to integrate with Sendgrid and Twillio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matheus Donizete",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "sendgrid": "^1.9.2",
+    "twilio": "^2.3.0"
+  }
+}
