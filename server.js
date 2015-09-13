@@ -6,7 +6,7 @@ var expressApp = require('express')(),
 	use_twilio = require('./modules/Twilio/twilio.js');
 
 expressApp.get('/', function(req, res){
-	res.send("Hey Azure");
+	res.end("Hey Azure");
 });
 
 expressApp.use(bodyParser.json());
