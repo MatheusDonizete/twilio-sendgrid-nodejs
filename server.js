@@ -56,7 +56,7 @@ expressApp.post('/makeCall', function(req, res){
 	});
 });
 
-var server = expressApp.listen(3000, function () {
+var server = expressApp.listen(process.env.PORT || 1337, function () {
   var host = server.address().address;
   var port = server.address().port;
   console.info(server.address());
